@@ -63,8 +63,8 @@ form.addEventListener("submit", (event) => {
   const date = form.elements["date"].value;
 
   const payload = {
-    namezzzzzz: name,
-    emailzzzzz: email,
+    name: name,
+    email: email,
     doctor,
     location,
     date,
